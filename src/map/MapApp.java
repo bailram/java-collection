@@ -1,9 +1,6 @@
 package map;
 
-import java.util.HashMap;
-import java.util.IdentityHashMap;
-import java.util.Map;
-import java.util.WeakHashMap;
+import java.util.*;
 
 public class MapApp {
     public static void main(String[] args) {
@@ -46,5 +43,47 @@ public class MapApp {
         identityHasHMap.put(key2, "Ilham Ramadhan");
 
         System.out.println(identityHasHMap.size());
+        /**
+         * 2
+         */
+        System.out.println();
+
+        // LinkedHashMap
+        Map<String, String> linkedHashMap = new LinkedHashMap<>();
+        linkedHashMap.put("firstname", "Dhimas");
+        linkedHashMap.put("lastname", "Bayu");
+
+        for (var key : linkedHashMap.keySet()) {
+            System.out.println(key);
+        }
+        /**
+         * firstname
+         * lastname
+         */
+
+        for(var value : linkedHashMap.values()) {
+            System.out.println(value);
+        }
+        /**
+         * Dhimas
+         * Bayu
+         */
+        System.out.println();
+
+        // EnumMap
+        EnumMap<Level, String> enumMap = new EnumMap<Level, String>(Level.class);
+        enumMap.put(Level.FREE, "Gratis");
+        enumMap.put(Level.PREMIUM, "Berbayar");
+
+        System.out.println(enumMap.get(Level.FREE));
+        System.out.println(enumMap.get(Level.PREMIUM));
+        /**
+         * Gratis
+         * Berbayar
+         */
+    }
+
+    public static enum Level {
+        FREE, STANDARD, PREMIUM, VIP
     }
 }

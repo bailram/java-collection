@@ -11,13 +11,13 @@
     - peek(): E
 
 ### Implementasi Queue
-- Iterable
-  - Collection
-    - Queue
-      - Deque
-        - LinkedList
-        - ArrayDeque
-      - PriorityQueue
+- Iterable (I)
+  - Collection (I)
+    - Queue (I)
+      - Deque (I)
+        - LinkedList (C)
+        - ArrayDeque (C)
+      - PriorityQueue (I)
 
 ### ArrayDeque vs LinkedList vs PriorityQueue
 - ArrayDeque menggunakan array sebagai implementasi queue nya

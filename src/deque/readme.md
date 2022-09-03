@@ -26,9 +26,9 @@
     - descendingIterator(): Iterator<E>
 
 ### Implementasi Deque
-- Iterable
-  - Collection
-    - Queue
-      - Deque
-        - LinkedList
-        - ArrayDeque
+- Iterable (I)
+  - Collection (I)
+    - Queue (I)
+      - Deque (I)
+        - LinkedList (C)
+        - ArrayDeque (C)

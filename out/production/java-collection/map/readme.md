@@ -4,12 +4,12 @@
 - Map sebenernya mirip dengan Array, cuma bedanya kalau di Array, key adalah index (integer), sedangkan di Map, key nya bebas kita tentukan sesuai dengan keinginan kita
 
 ### Implementasi Map
-- Map
-  - HashMap
-  - WeakHashMap
-  - IdentityHashMap
-  - LinkedHashMap
-  - EnumHashMap
+- Map (I)
+  - HashMap (C)
+  - WeakHashMap (C)
+  - IdentityHashMap (C)
+  - LinkedHashMap (C)
+  - EnumHashMap (C)
 
 ### HashMap
 - HashMap adalah implementasi Map yang melakukan distribusi key menggunakan hashCode() function
@@ -26,3 +26,14 @@
 - IdentityHAshMap adalah implementasi Map sama seperti HshMap
 - Yang membedakan adalah cara pengecekan kesamaan datanya, tidak menggunakan function equals, melainkan menggunakan operator == (referece equality)
 - Artinya data dianggap sama, jika memang lokasi di memory tersebut sama
+
+### LinkedHasHMap
+- LinkedHashMap adalah implementasi Map dengan menggunakan double linked list
+- Data di LinkedHashMap akan lebih terprediksi karena datanya akan disimpan berurutan dalam linked list sesuai urutan kita menyimpan data
+- Namun perlu diperhatikan, proses get data di LinkedHashMap akan semakin lambat karena harus melakukan iterasi data linked list terlebih dahulu
+- Gunakan LinkedHashMap jika memang kita lebih memntingkan iterasi data Map nya
+
+### EnumMap
+- EnumMap adalah implementasi Map dimana key nya adalah enum
+- Karena data enum sudah pasti unik, oleh karena itu cocok dijadikan key di Map
+- Algoritma pendistribusian key dioptimalkan untuk enum, sehingga lebih optimal dibandingkan menggunakan hashCode() method

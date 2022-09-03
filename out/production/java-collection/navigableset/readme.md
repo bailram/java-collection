@@ -18,7 +18,12 @@
       - `tailSet(E, boolean): NavigableSet<E>`
 
 ### Implementasi NavigableSet
-Iterable (I) <- Collection (I) <- Set (I) <- SortedSet (I) <- MavigableSet (I) <-- TreeSet (C)
+- Iterable (I) 
+  - Collection (I) 
+    - Set (I) 
+      - SortedSet (I) 
+        - MavigableSet (I) 
+          - TreeSet (C)
 
 ### Kode
 ```java
