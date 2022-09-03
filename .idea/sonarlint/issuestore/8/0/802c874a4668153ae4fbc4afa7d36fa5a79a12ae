@@ -1,0 +1,7 @@
+
+^
+java:S1854"CRemove this useless assignment to local variable "immutablePeople".(ˆÑì¢üÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÆÙÉ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹Âà·ýÿÿÿÿ
+V
+java:S1481"4Remove this unused "immutablePeople" local variable.(ˆÑì¢üÿÿÿÿ8œ‰˜×”0

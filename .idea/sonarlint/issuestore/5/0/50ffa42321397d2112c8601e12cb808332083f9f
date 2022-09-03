@@ -1,0 +1,22 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "set".(½ÃíÚøÿÿÿÿ
+S
+java:S1854"=Remove this useless assignment to local variable "immutable".(±Áë¼
+R
+java:S1854
+"7Remove this useless assignment to local variable "one".(ûæ¾şÿÿÿÿ
+R
+java:S1854	"<Remove this useless assignment to local variable "emptySet".(–“¥Â
+C
+java:S1481	"-Remove this unused "emptySet" local variable.(–“¥Â
+C
+java:S1481
+"(Remove this unused "one" local variable.(ûæ¾şÿÿÿÿ
+D
+java:S1481".Remove this unused "immutable" local variable.(±Áë¼
+C
+java:S1481"(Remove this unused "set" local variable.(½ÃíÚøÿÿÿÿ
+b
+java:S1192
+"GDefine a constant instead of duplicating this literal "Dhimas" 3 times.(ûæ¾şÿÿÿÿ
